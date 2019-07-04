@@ -1,5 +1,4 @@
-n,m=map(int,input().split())
-p=n+1
-for i in range(p,m):
-  if i%2==0:
-    print(i,end=' ')
+n11,n22 = map(int,input().split())
+for i in range(n11+1,n22):
+     if i%2==0:
+        print(i,end=" ")

@@ -1,0 +1,5 @@
+NIVI= int(input())
+factori = 1
+for i in range(1,NIVI+1):
+  factori = factori*i
+print(factori)

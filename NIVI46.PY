@@ -1,3 +1,3 @@
 #N
-NIVI=int(input())
-print(NIVI+1)
+NIVI1=int(input())
+print(NIVI1+1)

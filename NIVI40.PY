@@ -1,6 +1,6 @@
-b11=int(input())
-z1,v2=0,1
-while b11>0:
-  print(v2,end=' ')
-  z1,v2=v2,z1+v2
-  b11=b11-1
+NIVI2=int(input())
+s,t=0,1
+while NIVI2>0:
+  print(t,end=' ')
+  s,t=t,s+t
+  NIVI2=NIVI2-1

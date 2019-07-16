@@ -1,11 +1,6 @@
-#N
-d1=int(input())
-c1=1
-l1=1
-p1=0
-while(d1!=0):
-  c1=l1
-  l1=p1
-  p1=c1+l
-  print(p1,end=' ')
-  d1=d1-1
+vizh11=int(input())
+z1,v1=0,1
+while vizh11>0:
+  print(v1,end=' ')
+  z1,v1=v1,z1+v1
+  vizh11=vizh11-1

@@ -1,0 +1,7 @@
+n12,m12=input().split()
+n22,m22=input().split()
+n12=int(n12)
+m12=int(m12)
+n22=int(n22)
+m22=int(m22)
+print(abs(n12-n22),abs(m12-m22))

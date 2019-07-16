@@ -7,5 +7,5 @@ while(d1!=0):
   c1=l1
   l1=p1
   p1=c1+l
-  print(p,end=' ')
+  print(p1,end=' ')
   d1=d1-1

@@ -1,0 +1,2 @@
+NIPA=input()
+print(NIPA)

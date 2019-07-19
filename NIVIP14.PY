@@ -1,8 +1,17 @@
 #N
-i1=input()
-b1=str(input())
-p=('a','e','i','o','u')
-for i1 in b1:
-    if i1 in p:
-        b1=b1.replace(i,"")
-print(b1[::-1])
+
+d11=int(input())
+
+e11=str(input())
+
+e11=list(e11)
+
+for i in e11:
+
+	if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u'):
+  
+		e11.remove(i)
+    
+k=e11[::-1]
+
+print("".join(k))

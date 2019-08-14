@@ -1,0 +1,5 @@
+N23 = int(input())
+l = list(int(x) for x in str(N23))
+po = len(l)
+fin = list(map(lambda x:x**po,l))
+print(sum(fin))
